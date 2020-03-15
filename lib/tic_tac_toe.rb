@@ -93,7 +93,7 @@ class TicTacToe
     end
   end
 
-  def winner(@board)
+  def winner
     if won?
       return token
     end
