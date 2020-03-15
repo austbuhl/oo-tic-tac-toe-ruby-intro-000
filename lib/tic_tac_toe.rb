@@ -95,7 +95,7 @@ class TicTacToe
 
   def winner(@board)
     if won?
-      return current_player
+      return token
     end
   end
 
